@@ -1,0 +1,91 @@
+/* Add your custom styles here */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    animation: fadeIn 1s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    color: #e6005c;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  .heart {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .response {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 2px solid #e6005c;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #e6005c;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #ff3385;
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signature {
+    margin: 5px;
+    color: #888;
+    font-size: 14px;
+  }
+  
